@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+body {
+    margin: auto;
+    width: 70%;
+}
+.container {
+    height: 1000px;
+    width: 2100px;
+    padding-top: 2rem;
+    
+}
+.blocco1 {
+    float: left;
+    width:33.3%;
+    font-size: 1.5rem;
+}
+.blocco2 {
+    float: left;
+    width:33.3%;
+    font-size: 1.5rem;
+    
+}
+.blocco3 {
+    float: right;
+    width:33.3%;
+    font-size: 1.5rem;
+   
+}
+.imma3 {
+    height: 100%;
+    width: 100%;
+    padding-right: 1rem;
+}
+.imma1 {
+    width: 100%;
+    padding-right: 1rem;
+}
+.imma2 {
+    width: 100%;
+    padding-right: 1rem;
+}
+
+
+
+    
