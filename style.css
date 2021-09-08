@@ -16,8 +16,7 @@ body {
     height: 1000px;
     width: 2100px;
     padding-top: 2rem;
-    
-    
+    margin-bottom: 6rem;
 }
 .blocco1 {
     float: left;
@@ -45,7 +44,7 @@ body {
 }
 .imma1:hover {
    content: url(./immagini/1b.webp);
-   transform: scale(1.01);
+   transform: scale(1.02);
    
 }
 .imma2 {
@@ -54,7 +53,7 @@ body {
 }
 .imma2:hover {
     content: url(./immagini/2b.webp);
-    transform: scale(1.01);
+    transform: scale(1.02);
 }
 .imma3 {
     height: 100%;
@@ -63,7 +62,7 @@ body {
 }
 .imma3:hover {
     content: url(./immagini/3b.webp);
-    transform: scale(1.01);
+    transform: scale(1.02);
 }
 .imma4 {
     width: 100%;
@@ -71,7 +70,7 @@ body {
 }
 .imma4:hover {
     content: url(./immagini/4b.webp);
-    transform: scale(1.01);
+    transform: scale(1.02);
 }
 .imma5 {
     width: 100%;
@@ -79,7 +78,7 @@ body {
 }
 .imma5:hover {
     content: url(./immagini/5b.webp);
-    transform: scale(1.01);
+    transform: scale(1.02);
 }
 .imma6 {
     height: 100%;
@@ -88,11 +87,11 @@ body {
 }
 .imma6:hover {
     content: url(./immagini/6b.webp);
-    transform: scale(1.01);
+    transform: scale(1.02);
 }
 .para1 {
     position: absolute;
-    bottom: 110px;
+    bottom: 150px;
     background-color: red;
     font-size: 40px;
     color:white;
@@ -100,7 +99,7 @@ body {
 }
 .para2 {
     position: absolute;
-    bottom: 110px;
+    bottom: 150px;
     background-color: green;
     font-size: 40px;
     color:white;
@@ -116,20 +115,25 @@ body {
 }
 .para4 {
     position: absolute;
-    bottom: 110px;
+    bottom: 150px;
     background-color: red;
     font-size: 40px;
     color:white;
 }
 .para5 {
     position: absolute;
-    bottom: 110px;
+    bottom: 150px;
     background-color: green;
     font-size: 40px;
     color:white;
     left: 0px;
 }
-
+.para6 > strong{
+    color: red;
+}
+.para6 {
+    font-size: 30px;
+}
 
 
     
