@@ -35,18 +35,56 @@ body {
     font-size: 1.5rem;
    
 }
+.imma1 {
+    width: 100%;
+    padding-right: 1rem;
+}
+.imma1:hover {
+   content: url(./immagini/1b.webp);
+   transform: scale(1.01);
+   
+}
+.imma2 {
+    width: 100%;
+    padding-right: 1rem;
+}
+.imma2:hover {
+    content: url(./immagini/2b.webp);
+    transform: scale(1.01);
+}
 .imma3 {
     height: 100%;
     width: 100%;
     padding-right: 1rem;
 }
-.imma1 {
+.imma3:hover {
+    content: url(./immagini/3b.webp);
+    transform: scale(1.01);
+}
+.imma4 {
     width: 100%;
     padding-right: 1rem;
 }
-.imma2 {
+.imma4:hover {
+    content: url(./immagini/4b.webp);
+    transform: scale(1.01);
+}
+.imma5 {
     width: 100%;
     padding-right: 1rem;
+}
+.imma5:hover {
+    content: url(./immagini/5b.webp);
+    transform: scale(1.01);
+}
+.imma6 {
+    height: 100%;
+    width: 100%;
+    padding-right: 1rem;
+}
+.imma6:hover {
+    content: url(./immagini/6b.webp);
+    transform: scale(1.01);
 }
 
 
